@@ -1,31 +1,31 @@
 # Email Sorting Project
 
-Hey there! Welcome to the email sorting project. Our goal here is to develop a super cool algorithm that can classify and sort emails based on their content. And guess what? We're using the awesome "Cross-over CatBoost" algorithm to make it happen! 🚀😎
+Welcome to the Email Sorting Project! Our objective is to develop an efficient algorithm that can classify and sort emails based on their content. To accomplish this, we are employing the advanced "Cross-over CatBoost" algorithm.
 
 ## Algorithm Description: Cross-over CatBoost
 
-So, here's the deal with the "Cross-over CatBoost" algorithm. We've got two feature spaces that map values of the same variable. We believe these indicators are cumulative, meaning they keep adding up. So, for each email, we sum up the indicators in each feature space to get our "target" values. 📈🔍
+The "Cross-over CatBoost" algorithm leverages two feature spaces that represent values of the same variable. We hypothesize that these indicators are cumulative, indicating a progressive accumulation of information. Consequently, for each email, we aggregate the indicators within each feature space to derive the corresponding "target" values.
 
-Here's how we're making it work:
+Here is an overview of the algorithm's workflow:
 
-1. We create those two feature spaces I just mentioned. They're like different perspectives on the same thing. 
-2. Next, we sum up the indicators in each feature space for every email to calculate the "target" values. Math magic! 
-3. We split our data into training and testing sets. Gotta keep things fair! 
-4. Now, we train our classifiers using one feature space and predict the "target" from the other feature space. Switcheroo! 
-5. We do it all over again, but this time we swap the feature spaces. Variety is the spice of life, you know! 
-6. Time to see how well our classifiers perform! We evaluate them on the testing set for each combination of feature spaces. Let's crunch those numbers! 
-7. We analyze the results and pick the best combination of feature spaces. It's like finding the perfect harmony! 
+1. Creation of two feature spaces that provide distinct perspectives on the underlying variable.
+2. Computation of "target" values by aggregating the indicators within each feature space for every email.
+3. Division of the data into training and testing sets to ensure unbiased evaluation.
+4. Training of classifiers using one feature space to predict the "target" values from the other feature space.
+5. Repetition of step 4, swapping the feature spaces.
+6. Evaluation of classifier performance on the testing set for each combination of feature spaces.
+7. Analysis of results and selection of the optimal combination of feature spaces.
 
 ## Project Description
 
-Alright, let's dive into the nitty-gritty of our email sorting project. Here's what we're gonna do:
+Let's delve into the details of our email sorting project:
 
-1. We start with some data preprocessing and feature engineering. Gotta make that data shine! 
-2. We calculate the "target" values by summing up the indicators in each feature space. Summing things up, literally! 
-3. Splitting time! We divide our data into training and testing sets. Gotta keep things separate. 
-4. The fun begins! We train multiple classifiers using the "Cross-over CatBoost" algorithm. Feature spaces go back and forth during training. It's a wild ride! 🎢
-5. Time to see how our classifiers perform in the real world. We put 'em to the test on the testing set. Let the games begin! 
-6. Now comes the good part. We analyze the results and pick the best combination of feature spaces. The cream of the crop! 
-7. Finally, we apply our selected classifier to classify and sort new incoming emails. Bring it on, inbox! ✉
+1. Data preprocessing and feature engineering are performed to enhance the quality of the data.
+2. "Target" values are calculated by aggregating indicators within each feature space for each email.
+3. The dataset is split into training and testing sets to facilitate unbiased evaluation.
+4. Multiple classifiers are trained using the "Cross-over CatBoost" algorithm, alternating the feature spaces during training.
+5. The performance of the trained classifiers is evaluated on the testing set.
+6. The results are analyzed to identify the most effective combination of feature spaces.
+7. Finally, the selected classifier is applied to classify and sort new incoming emails.
 
-Our email sorting project is all about making your life easier by automatically organizing and categorizing your emails. Say goodbye to email chaos and hello to productivity! Let's get this email party started! 
+The Email Sorting Project aims to streamline email organization and categorization, ultimately improving productivity. Say goodbye to email chaos and let's get started!
