@@ -1,6 +1,6 @@
 # Email Sorting Project
 
-_Welcome to the Email Sorting Project! Our objective is to develop an efficient algorithm that can classify and sort emails based on their content(availability/absence of application). To accomplish this, we are employing the advanced "Cross-over CatBoost" algorithm._
+Welcome to the Email Sorting Project! Our objective is to develop an efficient algorithm that can classify and sort emails based on their content(availability/absence of application). To accomplish this, we are employing the advanced "Cross-over CatBoost" algorithm.
 
 ## Algorithm Description: Cross-over CatBoost
 
