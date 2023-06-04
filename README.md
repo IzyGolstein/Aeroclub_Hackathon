@@ -20,7 +20,10 @@ _Here is an overview of the algorithm's workflow:_
 
 _Let's delve into the details of our email sorting project:_
 
-тут надо написать про то какие фичи мы получали, как доставали бэги вордсов, про берта тоже. в общем да
+1. We created features - presence of reservation number, number of words - personal data, trimmed letters, highlighting key pieces, classical lemmitization, stop-words etc. 
+2. We used Word2Vec to get embeddings of words. 
+3. Realisation of "Cross-over CatBoost" algorithm.
+4. Making prediction.
 
 
 The Email Sorting Project aims to streamline email organization and categorization, ultimately improving productivity. Say goodbye to email chaos and let's get started!
