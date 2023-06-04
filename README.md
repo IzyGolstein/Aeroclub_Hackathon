@@ -6,7 +6,7 @@ _Welcome to the Email Sorting Project! Our objective is to develop an efficient 
 
 The "Cross-over CatBoost" algorithm leverages two feature spaces that represent values of the same variable. We hypothesize that these indicators are cumulative, indicating a progressive accumulation of information. Consequently, for each email, we aggregate the indicators within each feature space to derive the corresponding "target" values.
 
-_Here is an overview of the algorithm's workflow:_
+Here is an overview of the algorithm's workflow:
 
 1. Creation of two feature spaces that provide distinct perspectives on the underlying variable.
 2. Computation of "target" values by aggregating the indicators within each feature space for every email.
@@ -18,12 +18,9 @@ _Here is an overview of the algorithm's workflow:_
 
 ## Project Description
 
-_Let's delve into the details of our email sorting project:_
+Let's delve into the details of our email sorting project:
 
-1. We created features - presence of reservation number, number of words - personal data, trimmed letters, highlighting key pieces, classical lemmitization, stop-words etc. 
-2. We used Word2Vec to get embeddings of words. 
+1. We created features - presence of reservation number, number of words - personal data, trimmed letters, highlighting key pieces, classical lemmitization, stop-words etc.
+2. We used Word2Vec to get embeddings of words.
 3. Realisation of "Cross-over CatBoost" algorithm.
 4. Making prediction.
-
-
-The Email Sorting Project aims to streamline email organization and categorization, ultimately improving productivity. Say goodbye to email chaos and let's get started!
