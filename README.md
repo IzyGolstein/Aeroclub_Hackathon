@@ -1,23 +1,16 @@
 # Email Sorting Project
 
 During the hackathon, we aimed to create an unsupervised learning algorithm for email sorting without labels. We explored several ideas, including creating our own labels, using neural networks to extract key information from the text, and developing new methods. After preprocessing the text data, we attempted to use unsupervised learning techniques such as clustering on word embeddings. 
+  
+<p align="center">
+  <img src="https://github.com/IzyGolstein/Aeroclub_Hackathon/assets/112851618/e901f551-7dc5-4b7c-a319-e8f651a24ed8" alt="Sublime's custom image"/>
+</p>
 
+However, we encountered difficulties as the elbow rule did not work as expected. The point is that adding one cluster reduces the error by 4%.
 
-<div style="display: flex; justify-content: space-around;>
-  <div style="padding: 10px;">
-    <p align="center"><strong></strong></p>
-    <img src="https://github.com/IzyGolstein/Aeroclub_Hackathon/assets/112851618/e901f551-7dc5-4b7c-a319-e8f651a24ed8" alt="drawing" width="500" />
-  </div>
-  <div style="padding: 10px;">
-    <p align="center"><strong></strong></p>
-    <img src="https://github.com/IzyGolstein/Aeroclub_Hackathon/assets/112851618/602d334b-0c57-4dba-92c0-a8f03fb76f76" alt="drawing" width="500" />
-  </div>
-</div>
-
-
-
-However, we encountered difficulties as the elbow rule did not work as expected. 
-
+<p align="center">
+  <img src="https://github.com/IzyGolstein/Aeroclub_Hackathon/assets/112851618/602d334b-0c57-4dba-92c0-a8f03fb76f76" alt="Sublime's custom image"/>
+</p>
 
 As a result, we decided to use simple vectorization and bag-of-words techniques for classification. After completing this step, we faced the challenge of combining these two algorithms. Our solution was to leverage two feature spaces that represent values of the same variable and aggregate the indicators within each feature space for every email.
 
