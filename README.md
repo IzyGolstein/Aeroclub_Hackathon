@@ -1,8 +1,25 @@
 # Email Sorting Project
 
-Welcome to the Email Sorting Project!✉️
+During the hackathon, we aimed to create an unsupervised learning algorithm for email sorting without labels. We explored several ideas, including creating our own labels, using neural networks to extract key information from the text, and developing new methods. After preprocessing the text data, we attempted to use unsupervised learning techniques such as clustering on word embeddings. 
 
-Our objective is to develop an efficient algorithm that can classify and sort emails based on their content(availability/absence of application). To accomplish this, we are employing the advanced "Cross-over CatBoost" algorithm.
+
+<div style="display: flex; justify-content: space-around;>
+  <div style="padding: 10px;">
+    <p align="center"><strong></strong></p>
+    <img src="https://github.com/IzyGolstein/Aeroclub_Hackathon/assets/112851618/e901f551-7dc5-4b7c-a319-e8f651a24ed8" alt="drawing" width="500" />
+  </div>
+  <div style="padding: 10px;">
+    <p align="center"><strong></strong></p>
+    <img src="https://github.com/IzyGolstein/Aeroclub_Hackathon/assets/112851618/602d334b-0c57-4dba-92c0-a8f03fb76f76" alt="drawing" width="500" />
+  </div>
+</div>!
+
+
+
+However, we encountered difficulties as the elbow rule did not work as expected. 
+
+
+As a result, we decided to use simple vectorization and bag-of-words techniques for classification. After completing this step, we faced the challenge of combining these two algorithms. Our solution was to leverage two feature spaces that represent values of the same variable and aggregate the indicators within each feature space for every email.
 
 ## Algorithm Description: Cross-over CatBoost
 
