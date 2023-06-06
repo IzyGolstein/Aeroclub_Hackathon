@@ -12,7 +12,7 @@ During the hackathon, we aimed to create an unsupervised learning algorithm for 
     <p align="center"><strong></strong></p>
     <img src="https://github.com/IzyGolstein/Aeroclub_Hackathon/assets/112851618/602d334b-0c57-4dba-92c0-a8f03fb76f76" alt="drawing" width="500" />
   </div>
-</div>!
+</div>
 
 
 
